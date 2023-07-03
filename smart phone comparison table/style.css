@@ -1,0 +1,29 @@
+table,th,td {
+    width: 800px;
+    height: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    gap: 10px;
+}
+
+.thead {
+    color: white;
+    background-color: #48AF4E;
+    padding: 10px;
+}
+.table{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.tbody .trr:hover{
+    background-color:#DCDCDD ;
+}
+
+.tbody tr:nth-child(odd) {
+    background-color: #F0F2F2;
+}
+
+h1{
+    text-align: center;
+}
